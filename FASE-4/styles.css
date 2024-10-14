@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(223, 235, 255);
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+
+    height: 70px;
+    padding-left: 20px;
+}
+.nompro{
+    color: rgb(39, 94, 118);
+    padding-left: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    width: 1134px;
+    border-color:rgb(39, 94, 118); ;
+}
+
+nav{
+    background-color: rgb(223, 235, 255);
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(39, 94, 118);
+    font-weight: bold;
+    
+    
+}

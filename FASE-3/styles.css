@@ -9,10 +9,12 @@
   
 }
 
-.nompro{ 
-text-align: center;
-color: rgb(61, 82, 148);
-font-size: 50px;
+.titulo{ 
+ text-align: center;
+ color: rgb(0, 66, 95);
+ font-size: 15px;
+ font-style: italic;
+ font-weight: bold;
 
 }
 
@@ -21,7 +23,7 @@ font-size: 50px;
   width:90%;
   background-color:#ffffff;
   padding:40px;
-  border-radius:4px;
+  border-radius:10px;
   transform:translate(-50%, -50%);
   position:absolute;
   top:50%;
@@ -32,8 +34,7 @@ font-size: 50px;
 
 .login-dark .illustration {
   text-align:center;
-  height: 170px;
-  
+  height: 80px; 
   
 }
 
