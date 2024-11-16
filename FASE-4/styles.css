@@ -1,21 +1,27 @@
+
 header{
     background-color: rgb(223, 235, 255);
-    height: 120px;
+    height: 140px;
 }
 
 .logo{
     display: flex;
 }
+ul{
+    margin-left: 0;
+    list-style: none;
+    text-decoration: none;
+}
 
 .logo img{
 
-    height: 70px;
+    height: 80px;
     padding-left: 20px;
 }
 .nompro{
     color: rgb(39, 94, 118);
-    padding-left: 40px;
-    font-size: 25px;
+    padding-left: 70px;
+    font-size: 34px;
     text-align: center;
     font-style: italic ;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,13 +32,48 @@ hr{
     border-color:rgb(39, 94, 118); ;
 }
 
-nav{
+.nav {
+
     background-color: rgb(223, 235, 255);
     width: 220px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(39, 94, 118);
-    font-weight: bold;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 66, 95); 
     
     
 }
+.list{
+    width: 100%;
+    height: 40vh;
+  
+    
+}
+.nav .list .list_button1{
+    display: flex;
+    
+    
+    
+}
+
+
+.formulario{
+    text-align: center;
+    font-size: 12px;
+    color:rgb(84, 49, 3);
+    
+}
+fieldset{
+    font-size: 13px;
+}
+
+.formulario1 .formulario .ingresar{
+    font-size: 13px;
+    
+}
+.formulario1 .formulario .listado{
+    font-size: 13px;
+    color:rgb(84, 49, 3);
+    
+}
+
+

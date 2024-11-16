@@ -1,4 +1,6 @@
-.login-dark {
+
+.contenedor_todo {
+
   height:1000px;
   background:url(./Imagenes/fondo4.jpg);
   position:static;
@@ -18,7 +20,7 @@
 
 }
 
-.login-dark form {
+.contenedor_todo form {
   max-width:320px;
   width:90%;
   background-color:#ffffff;
@@ -30,25 +32,26 @@
   left:50%;
   color:#000000;
   box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+  
 }
 
-.login-dark .illustration {
+.contenedor_todo .inpec_logo {
   text-align:center;
   height: 80px; 
   
 }
 
-.login-dark form .form-control {
+.contenedor_todo form .form-control {
   background:none;
   border:none;
-  border-bottom:1px solid #434a52;
+  border-bottom:1px solid #0966d0;
   border-radius:0;
   box-shadow:none;
   outline:none;
   color:inherit;
 }
 
-.login-dark form .btn-primary {
+.contenedor_todo form .btn-primary {
   background:#214a80;
   border:none;
   border-radius:4px;
@@ -59,12 +62,12 @@
   outline:none;
 }
 
-.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+.contenedor_todo form .btn-primary:hover, .login-dark form .btn-primary:active {
   background:#214a80;
   outline:none;
 }
 
-.login-dark form .forgot {
+.contenedor_todo form .forgot {
   display:block;
   text-align:center;
   font-size:12px;
@@ -73,15 +76,13 @@
   text-decoration:none;
 }
 
-.login-dark form .forgot:hover, .login-dark form .forgot:active {
+.contenedor_todo form .forgot:hover, .login-dark form .forgot:active {
   opacity:1;
   text-decoration:none;
 }
 
-.login-dark form .btn-primary:active {
+.contenedor_todo form .btn-primary:active {
   transform:translateY(1px);
 }
 
-.final{
-  text-align: center;
-}
+
