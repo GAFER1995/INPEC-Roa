@@ -1,79 +1,42 @@
-
-header{
-    background-color: rgb(223, 235, 255);
-    height: 140px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.logo{
+
+.nav{
+    background: rgb(222,238,253);
+    height: 85px;
     display: flex;
-}
-ul{
-    margin-left: 0;
-    list-style: none;
-    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
 }
 
-.logo img{
-
-    height: 80px;
-    padding-left: 20px;
-}
-.nompro{
-    color: rgb(39, 94, 118);
-    padding-left: 70px;
-    font-size: 34px;
-    text-align: center;
-    font-style: italic ;
-    font-family: Arial, Helvetica, sans-serif;
+.nav__logo{
+    height: 100%;   
 }
 
-hr{
-    width: 1134px;
-    border-color:rgb(39, 94, 118); ;
-}
+.nav__img{
 
-.nav {
-
-    background-color: rgb(223, 235, 255);
-    width: 220px;
-    display: flex;
-    font-size: 13px;
-    color: rgb(0, 66, 95); 
-    
-    
+    height: 100%;
 }
-.list{
-    width: 100%;
-    height: 40vh;
+.nav__titulo{
+
+    color: rgb(4, 69, 94);
+    font-style: italic;
   
-    
 }
-.nav .list .list_button1{
+.nav__links{
     display: flex;
-    
-    
-    
 }
-
-
-.formulario{
-    text-align: center;
+.nav__link{
+    color: rgb(4, 69, 94);
+    text-decoration: none;
     font-size: 12px;
-    color:rgb(84, 49, 3);
-    
-}
-fieldset{
-    font-size: 13px;
-}
-
-.formulario1 .formulario .ingresar{
-    font-size: 13px;
-    
-}
-.formulario1 .formulario .listado{
-    font-size: 13px;
-    color:rgb(84, 49, 3);
-    
+    font-weight: bold;
 }
 
 
