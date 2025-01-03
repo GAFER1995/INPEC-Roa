@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SICOEN - HOME</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesm.css">
     <link rel="shorcut icon" type="image/x-icon" href="Imagenes/escudo.png">
 
 </head>
@@ -23,11 +23,11 @@
             </div>
  
             <div class="nav__titulo">
-                <h2 class="nompro">SICOEN - DEVOLUCIONES ELEMENTOS</h2>
+                <h2 class="nompro">SICOEN - Devolucion Elemento</h2>
             </div>
             
             <div class="nav__links">
-                <a href="#" class="nav__link--sub">Cerrar Sesion </a>
+                <a href="../FASE-3/index.html" class="nav__link--sub">Cerrar Sesion </a>
                 <img src="Imagenes/salir.svg" class="link__img">
                 <a href="#" class="nav__link--sub"> | Cambiar Contraseña </a>
                 <img src="Imagenes/candado.svg" class="link__img">
@@ -41,104 +41,58 @@
         
     </header>
 
+
+    <nav class="menu">
+
+        <ul>
+          
+          <li><a href="inicio.html">Inicio</a></li>
     
-    <nav class="nav__menu">
-
-        <ul class="list">
-
-            <li class="list__item">
-                 <div class="list__button">
-                    <img src="Imagenes/home.svg" class="list__img">
-                    <a href="inicio.html" class="nav__link">Inicio</a>
-                </div>
-            </li>
-
-            <li class="list__item">
-                <div class="list__button list__button--click">
-                    <img src="Imagenes/registro.svg" class="list__img">
-                    <a href="#" class="nav__link">Registros</a>
-                    <img src="Imagenes/arrow.svg" class="list__arrow">
-                </div>
-
-                <ul class="list__show">
-
-                    <li class="list__inside">
-                        <a href="regisEnc.html" class="nav__link nav__link--inside">Encomiendas</a>
-                    </li>
-                    <li class="list__inside">
-                        <a href="regisPpl.html" class="nav__link nav__link--inside">PPL</a>
-                    </li>
-
-                </ul>
-
-            </li>
-
-            <li class="list__item">
-                <div class="list__button list__button--click">
-                    <img src="Imagenes/lupa.svg" class="list__img">
-                    <a href="#" class="nav__link">Consultas</a>
-                    <img src="Imagenes/arrow.svg" class="list__arrow">
-                </div>
-
-                <ul class="list__show">
-
-                    <li class="list__inside">
-                        <a href="consEnco.html" class="nav__link nav__link--inside">Encomiendas</a>
-                    </li>
-                    <li class="list__inside">
-                        <a href="consPpl.html" class="nav__link nav__link--inside">PPL</a>
-                    </li>
-                   
-
-                </ul>
-
-            </li>
-
-            <li class="list__item">
-                <div class="list__button list__button--click">
-                    <img src="Imagenes/retornar.svg" class="list__img">
-                    <a href="#" class="nav__link">Devoluciones</a>
-                    <img src="Imagenes/arrow.svg" class="list__arrow">
-                </div>
-
-                <ul class="list__show">
-
-                    <li class="list__inside">
-                        <a href="devEnco.html" class="nav__link nav__link--inside">Encomiendas</a>
-                    </li>
-                    <li class="list__inside">
-                        <a href="devElem.html" class="nav__link nav__link--inside">Elementos</a>
-                    </li>
-                   
-
-                </ul>
-
-            </li>
-
-            <li class="list__item">
-                <div class="list__button list__button--click">
-                    <img src="Imagenes/inventario.svg" class="list__img">
-                    <a href="#" class="nav__link">Inventario</a>
-                    <img src="Imagenes/arrow.svg" class="list__arrow">
-                </div>
-
-                <ul class="list__show">
-
-                    <li class="list__inside">
-                        <a href="invenConsu.html" class="nav__link nav__link--inside"> Formato inventario</a>
-                    </li>
-                   
-                   
-
-                </ul>
-
-            </li>
-
+          <img src="Imagenes/arrow.svg" alt="#">
+          <li class="option"><a href="#">Registro </a>
+          <ul class="submenu">
+    
+            <li><a href="regisEnc.html">Encomienda</a></li>
+            <li><a href="regisPpl.html">PPL</a></li>
             
+          </ul>
+          </li>
+    
+          <img src="Imagenes/arrow.svg" alt="#">
+          <li class="option"><a href="#">Consulta</a>
+            <ul class="submenu">
+              <li><a href="consEnco.html">Encomienda</a></li>
+              <li><a href="consPpl.html">PPL</a></li>
+              
+            </ul>
+            </li>
+    
+            <img src="Imagenes/arrow.svg" alt="#">
+            <li class="option"><a href="#">Devoluciones</a>
+              <ul class="submenu">
+                <li><a href="devEnco.html">Encomienda</a></li>
+                <li><a href="devElem.html">Elementos</a></li>
+                
+              </ul>
+              </li>
+    
+              <img src="Imagenes/arrow.svg" alt="#">
+              <li class="option"><a href="#">Inventario</a>
+                <ul class="submenu">
+                  <li><a href="#">Formato inventario</a></li>
+                  <li><a href="#">PPL</a></li>
+                  
+                </ul>
+                </li>
         </ul>
+    
+    
+    
+      </nav>
+    
+   
 
-
-    </nav>
+   
     
     <script src="main.js"></script>
 
