@@ -69,7 +69,7 @@ body{
   width: 20%;
   background: #024959;
   list-style: none;
-  margin: -27px 40px;
+  margin: -400px 40px;
   border-radius: 4px;
   
 }
@@ -108,4 +108,34 @@ body{
 
 .menu ul .activo{
   display: block;
+}
+
+.form_register{
+  background-image: linear-gradient( #024959, white);
+  width: 74%;
+  height: 400px;
+  padding: 30px;
+  margin: -150px 334px;
+  margin-top: -30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  border-radius: 4px;
+  
+}
+.controls{
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.form_register .boton{
+  width: 100%;
+  padding: 7px;
+  margin: 10px 0;
+  font-size:14px ;
+  background: #024959;
+  color: white;
+  cursor: pointer;
+  
 }

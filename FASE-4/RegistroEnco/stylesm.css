@@ -13,7 +13,7 @@ body{
 
 
 .nav{
-    background-image:linear-gradient(to left ,#024959, white)  ;
+    background-image:linear-gradient(to left ,#024959 60%, white)  ;
     height: 90px;
     display: flex;
     align-items: center;
@@ -56,11 +56,11 @@ body{
 }
 
 .form_register{
-  background: #024959;
-  width: 859px;
+  background-image:linear-gradient(#024959 60%, white)  ;
+  width: 74%;
   height: 100%;
   padding: 30px;
-  margin: 300px;
+  margin: 335px;
   margin-top: -30px;
   font-family: 'Times New Roman', Times, serif;
   color: white;
@@ -79,9 +79,10 @@ body{
   padding: 7px;
   margin: 10px 0;
   font-size:14px ;
-  background: #898c8a;
+  background: #024959;
   color: rgb(255, 255, 255);
   cursor: pointer;
+  border-radius: 4px;
   
 }
   
@@ -95,7 +96,7 @@ body{
     width: 20%;
     background: #024959;
     list-style: none;
-    margin: -732px 40px;
+    margin: -819px 40px;
     border-radius: 4px;
     
   }
